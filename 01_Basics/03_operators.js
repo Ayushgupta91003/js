@@ -24,3 +24,11 @@ console.log("5 != 6:", 5 != 6);         // true
 console.log("5 !== '5':", 5 !== '5');   // true
 console.log("5 > 3:", 5 > 3);           // true
 console.log("5 <= 5:", 5 <= 5);         // true
+
+
+// ===== Logical Operators =====
+let isTrue = true;
+let isFalse = false;
+console.log("true && false:", isTrue && isFalse); // false
+console.log("true || false:", isTrue || isFalse); // true
+console.log("!true:", !isTrue);                   // false
