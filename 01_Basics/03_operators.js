@@ -37,3 +37,8 @@ console.log("!true:", !isTrue);                   // false
 // ===== Unary Operator =====
 let value = 10;
 console.log("typeof value:", typeof value); // number
+
+// ===== Ternary Operator =====
+let score = 75;
+let grade = score >= 60 ? "Pass" : "Fail";
+console.log("Grade:", grade);
