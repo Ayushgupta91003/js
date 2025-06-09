@@ -16,3 +16,11 @@ x -= 1;  // x = 20
 x /= 2;  // x = 10
 x %= 3;  // x = 1
 console.log("Final value of x:", x);
+
+// ===== Comparison Operators =====
+console.log("5 == '5':", 5 == '5');     // true
+console.log("5 === '5':", 5 === '5');   // false
+console.log("5 != 6:", 5 != 6);         // true
+console.log("5 !== '5':", 5 !== '5');   // true
+console.log("5 > 3:", 5 > 3);           // true
+console.log("5 <= 5:", 5 <= 5);         // true
