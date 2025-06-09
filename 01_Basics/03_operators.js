@@ -32,3 +32,8 @@ let isFalse = false;
 console.log("true && false:", isTrue && isFalse); // false
 console.log("true || false:", isTrue || isFalse); // true
 console.log("!true:", !isTrue);                   // false
+
+
+// ===== Unary Operator =====
+let value = 10;
+console.log("typeof value:", typeof value); // number
